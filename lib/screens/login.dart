@@ -13,6 +13,7 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final _phoneCtrl = TextEditingController();
   final _passCtrl = TextEditingController();
+  final _test = TextEditingController();
 
   void _onSubmit() {
     if (_formKey.currentState!.validate()) print("Success");
